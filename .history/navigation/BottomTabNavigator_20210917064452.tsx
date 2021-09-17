@@ -55,9 +55,9 @@ function TabOneNavigator() {
   return (
     <TabOneStack.Navigator>
       <TabOneStack.Screen
-        name="ExploreScreen"
+        name="TabOneScreen"
         component={ExploreScreen}
-        options={{ headerTitle: 'Explore our products' }}
+        options={{ headerTitle: 'Tab One Title' }}
       />
     </TabOneStack.Navigator>
   );
